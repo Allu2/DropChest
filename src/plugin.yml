@@ -1,0 +1,11 @@
+## YAML Template.
+---
+name: DropChest
+main: DropChest.DropChest
+version: 0.98
+commands:
+   chance:
+      description: Set the initial chance wether mob can drop ChestDrop larger number means smaller chance
+      usage: /chance 0-99
+      permission: ChestDrop.chance
+      permission-message: You don't have ChestDrop.chance
