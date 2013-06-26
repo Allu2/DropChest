@@ -1,0 +1,12 @@
+# Default config for DropChest
+# World in whitch the plugin works
+world: world
+#Chance that monster drops something from the DropChest. Number between 0-100 and larger means less likely
+#default is 5% chance to drop.
+chance: 95
+#
+chest:
+  x: 100
+  y: 60
+  z: 100
+  
