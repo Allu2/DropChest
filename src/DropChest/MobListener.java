@@ -50,8 +50,9 @@ public class MobListener implements Listener {
         ItemStack items = drop;
         event.getDrops().add(items);
     }
-    public void setChance(int i){  //Set the chance that is used to count wether or not run setDrop()
-    this.chance = i;
+
+    public void setChance(int i) {  //Set the chance that is used to count wether or not run setDrop()
+        this.chance = i;
     }
 
     @EventHandler
@@ -72,7 +73,7 @@ public class MobListener implements Listener {
                 if (rand.nextInt(100) > this.chance) {
                     setDrop(droppi, event);
                 }
-               // org.bukkit.Bukkit.getConsoleSender().sendMessage(mcPlayer.getPlayerListName());
+                // org.bukkit.Bukkit.getConsoleSender().sendMessage(mcPlayer.getPlayerListName());
             }
         }
         {
